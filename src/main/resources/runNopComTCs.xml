@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "NopCommerce">
+<parameter name = "url" value = "https://demo.nopcommerce.com/" />
+
+	<test name="Run on Chrome">
+ 		 <parameter name = "browser" value="Chrome"/>
+ 		 <parameter name = "osName" value="Windows"/>
+  		 <parameter name = "osVersion" value="10"/>
+ 		 <classes>
+     		 <class name="nopCommerce.Level_20_Browserstack"/>
+  		 </classes>
+  	</test>
+  
+  
+  	<test name="Run on Firefox">
+ 		 <parameter name = "browser" value="Firefox"/>
+ 		 <parameter name = "osName" value="OS X"/>
+		 <parameter name = "osVersion" value="Big Sur"/>
+ 		 <classes>
+     		 <class name="nopCommerce.Level_20_Browserstack"/>
+ 		 </classes>
+ 	 </test>
+ 	 
+<!--   	<test name="Run on Mobile"> -->
+<!--  		 <parameter name = "browser" value="Chrome"/> -->
+<!--  		 <parameter name = "deviceOrientation" value="portrait"/> -->
+<!-- 		 <parameter name = "osVersion" value="15"/> -->
+<!-- 		 <parameter name = "deviceName" value="iPhone 13 Pro"/> -->
+<!--  		 <classes> -->
+<!--      		 <class name="nopCommerce.Level_20_Browserstack"/> -->
+<!--  		 </classes> -->
+<!--  	 </test> -->
+ 	 
+ 	 
+</suite> 
